@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
         resultTextView = findViewById(R.id.resultTextView)
 
         startButton.setOnClickListener {
-            // the ProductCheckerWorker to run every 15 minutes (adjust as needed)
+            // the ProductCheckerWorker to run every 15 minutes
             scheduleProductCheckerWorker()
         }
     }
